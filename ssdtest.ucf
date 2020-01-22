@@ -1,0 +1,60 @@
+NET "AN[3]" LOC = P17;
+NET "AN[2]" LOC = P18;
+NET "AN[1]" LOC = N15;
+NET "AN[0]" LOC = N16;
+
+NET "seven_out[6]" LOC = T17;
+NET "seven_out[5]" LOC = T18;
+NET "seven_out[4]" LOC = U17;
+NET "seven_out[3]" LOC = U18;
+NET "seven_out[2]" LOC = M14; 
+NET "seven_out[1]" LOC = N14;  
+NET "seven_out[0]" LOC = L14; 
+
+NET "clk" LOC = V10;
+NET "rst" LOC = C4;
+NET "enter" LOC = B8;
+NET "change" LOC = D9;
+NET "cleardsp" LOC = C9;
+
+NET "SW[0]" LOC = T10;
+NET "SW[1]" LOC = T9;
+NET "SW[2]" LOC = V9;
+NET "SW[3]" LOC = M8;
+NET "SW[5]" LOC = N8;
+NET "SW[6]" LOC = U8;
+NET "SW[7]" LOC = V8;
+NET "SW[8]" LOC = T5;
+
+NET "led[3]" LOC = V15;
+NET "led[2]" LOC = U15;
+NET "led[1]" LOC = V16;
+NET "led[0]" LOC = U16;
+
+NET "light" LOC = T11; #| IOSTANDARD = LVCMOS33;
+
+#NET "R[0]" LOC = U7;
+#NET "R[1]" LOC = V7;
+#NET "R[2]" LOC = N7;
+
+#NET "G[0]" LOC = P8;
+#NET "G[1]" LOC = T6;
+#NET "G[2]" LOC = V6;
+
+#NET "B[0]" LOC = R7;
+#NET "B[1]" LOC = T7;
+
+#NET "HS" LOC = N6;
+#NET "VS" LOC = P7;
+
+NET "R[0]" LOC = U7;// | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L43P, Sch name = RED0
+NET "R[1]" LOC = V7;// | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L43N, Sch name = RED1
+NET "R[2]" LOC = N7;// | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L44P, Sch name = RED2
+NET "G[0]" LOC = P8;// | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L44N, Sch name = GRN0
+NET "G[1]" LOC = T6;// | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L45P, Sch name = GRN1
+NET "G[2]" LOC = V6;// | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L45N, Sch name = GRN2
+NET "B[0]" LOC = R7;// | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L46P, Sch name = BLU1
+NET "B[1]" LOC = T7;// | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L46N, Sch name = BLU2
+
+NET "HS" LOC = N6;// | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L47P, Sch name = HSYNC
+NET "VS" LOC = P7;// | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L47N, Sch name = VSYNC
